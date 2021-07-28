@@ -27,25 +27,11 @@ func addServiceNSWCovidBusinessToSpotlight(business: COVIDBusiness) {
     item.expirationDate = Date(timeIntervalSinceNow: 60 * 60 * 24 * 365 * 3) // 3 years, god help us if this is still going on then...
      
     // Add the item to the on-device index.
-    CSSearchableIndex.default().indexSearchableItems([item]) { error in
-        if error != nil {
-            print(error?.localizedDescription)
-        }
-        else {
-            print("Item indexed: \(item.uniqueIdentifier)")
-        }
-    }
+    CSSearchableIndex.default().indexSearchableItems([item]) // Might want to catch errors in callback here
 }
 
 func removeServiceNSWCovidBusinessFromSpotlight(url: String) {
-    CSSearchableIndex.default().deleteSearchableItems(withIdentifiers: [url]) { error in
-        if error != nil {
-            print(error?.localizedDescription)
-        }
-        else {
-            print("Item removed from index: \(url)")
-        }
-    }
+    CSSearchableIndex.default().deleteSearchableItems(withIdentifiers: [url])  // Might want to catch errors in callback here
 }
 
 func handleLaunchFromSpotlight(_ userActivity: NSUserActivity) {

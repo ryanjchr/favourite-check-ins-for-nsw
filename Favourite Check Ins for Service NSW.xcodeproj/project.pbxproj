@@ -12,14 +12,14 @@
 		9476648026B1729C00A83190 /* AlertIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476647F26B1729C00A83190 /* AlertIdentifiable.swift */; };
 		9476648426B18DF700A83190 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476648326B18DF700A83190 /* ScannerView.swift */; };
 		9476648626B1928500A83190 /* SpotlightIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476648526B1928500A83190 /* SpotlightIndex.swift */; };
-		949AFFB3268C9DA600BAEF94 /* Quick_Check_In_for_Service_NSWApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949AFFB2268C9DA600BAEF94 /* Quick_Check_In_for_Service_NSWApp.swift */; };
+		949AFFB3268C9DA600BAEF94 /* Favourite_Check_Ins_for_Service_NSWApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949AFFB2268C9DA600BAEF94 /* Favourite_Check_Ins_for_Service_NSWApp.swift */; };
 		949AFFB5268C9DA600BAEF94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949AFFB4268C9DA600BAEF94 /* ContentView.swift */; };
 		949AFFB7268C9DA700BAEF94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 949AFFB6268C9DA700BAEF94 /* Assets.xcassets */; };
 		949AFFBA268C9DA700BAEF94 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 949AFFB9268C9DA700BAEF94 /* Preview Assets.xcassets */; };
 		949AFFBC268C9DA700BAEF94 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949AFFBB268C9DA700BAEF94 /* Persistence.swift */; };
 		949AFFBF268C9DA700BAEF94 /* Quick_Check_In_for_Service_NSW.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 949AFFBD268C9DA700BAEF94 /* Quick_Check_In_for_Service_NSW.xcdatamodeld */; };
-		949AFFCA268C9DA800BAEF94 /* Quick_Check_In_for_Service_NSWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949AFFC9268C9DA800BAEF94 /* Quick_Check_In_for_Service_NSWTests.swift */; };
-		949AFFD5268C9DA800BAEF94 /* Quick_Check_In_for_Service_NSWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949AFFD4268C9DA800BAEF94 /* Quick_Check_In_for_Service_NSWUITests.swift */; };
+		949AFFCA268C9DA800BAEF94 /* Favourite_Check_Ins_for_Service_NSWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949AFFC9268C9DA800BAEF94 /* Favourite_Check_Ins_for_Service_NSWTests.swift */; };
+		949AFFD5268C9DA800BAEF94 /* Favourite_Check_Ins_for_Service_NSWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949AFFD4268C9DA800BAEF94 /* Favourite_Check_Ins_for_Service_NSWUITests.swift */; };
 		949AFFE3268CAD0100BAEF94 /* QrCodeCameraDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949AFFE2268CAD0100BAEF94 /* QrCodeCameraDelegate.swift */; };
 		949AFFE5268CAD2300BAEF94 /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949AFFE4268CAD2300BAEF94 /* CameraPreview.swift */; };
 		949AFFE7268CAD5000BAEF94 /* QrCodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949AFFE6268CAD5000BAEF94 /* QrCodeScannerView.swift */; };
@@ -62,21 +62,19 @@
 		9476647F26B1729C00A83190 /* AlertIdentifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertIdentifiable.swift; sourceTree = "<group>"; };
 		9476648326B18DF700A83190 /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
 		9476648526B1928500A83190 /* SpotlightIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotlightIndex.swift; sourceTree = "<group>"; };
-		9476648D26B193FC00A83190 /* IndexRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexRequestHandler.swift; sourceTree = "<group>"; };
-		9476648F26B193FC00A83190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		949AFFAF268C9DA600BAEF94 /* Quick Check In for Service NSW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quick Check In for Service NSW.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		949AFFB2268C9DA600BAEF94 /* Quick_Check_In_for_Service_NSWApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quick_Check_In_for_Service_NSWApp.swift; sourceTree = "<group>"; };
+		949AFFAF268C9DA600BAEF94 /* Favourite Check Ins for Service NSW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Favourite Check Ins for Service NSW.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		949AFFB2268C9DA600BAEF94 /* Favourite_Check_Ins_for_Service_NSWApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favourite_Check_Ins_for_Service_NSWApp.swift; sourceTree = "<group>"; };
 		949AFFB4268C9DA600BAEF94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		949AFFB6268C9DA700BAEF94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		949AFFB9268C9DA700BAEF94 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		949AFFBB268C9DA700BAEF94 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		949AFFBE268C9DA700BAEF94 /* Quick_Check_In_for_Service_NSW.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Quick_Check_In_for_Service_NSW.xcdatamodel; sourceTree = "<group>"; };
 		949AFFC0268C9DA700BAEF94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		949AFFC5268C9DA800BAEF94 /* Quick Check In for Service NSWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quick Check In for Service NSWTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		949AFFC9268C9DA800BAEF94 /* Quick_Check_In_for_Service_NSWTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quick_Check_In_for_Service_NSWTests.swift; sourceTree = "<group>"; };
+		949AFFC5268C9DA800BAEF94 /* Favourite Check Ins for Service NSWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Favourite Check Ins for Service NSWTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		949AFFC9268C9DA800BAEF94 /* Favourite_Check_Ins_for_Service_NSWTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favourite_Check_Ins_for_Service_NSWTests.swift; sourceTree = "<group>"; };
 		949AFFCB268C9DA800BAEF94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		949AFFD0268C9DA800BAEF94 /* Quick Check In for Service NSWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quick Check In for Service NSWUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		949AFFD4268C9DA800BAEF94 /* Quick_Check_In_for_Service_NSWUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quick_Check_In_for_Service_NSWUITests.swift; sourceTree = "<group>"; };
+		949AFFD0268C9DA800BAEF94 /* Favourite Check Ins for Service NSWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Favourite Check Ins for Service NSWUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		949AFFD4268C9DA800BAEF94 /* Favourite_Check_Ins_for_Service_NSWUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favourite_Check_Ins_for_Service_NSWUITests.swift; sourceTree = "<group>"; };
 		949AFFD6268C9DA800BAEF94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		949AFFE2268CAD0100BAEF94 /* QrCodeCameraDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrCodeCameraDelegate.swift; sourceTree = "<group>"; };
 		949AFFE4268CAD2300BAEF94 /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
@@ -109,22 +107,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9476648C26B193FC00A83190 /* Quick Check In Indexer */ = {
-			isa = PBXGroup;
-			children = (
-				9476648D26B193FC00A83190 /* IndexRequestHandler.swift */,
-				9476648F26B193FC00A83190 /* Info.plist */,
-			);
-			path = "Quick Check In Indexer";
-			sourceTree = "<group>";
-		};
 		949AFFA6268C9DA600BAEF94 = {
 			isa = PBXGroup;
 			children = (
-				949AFFB1268C9DA600BAEF94 /* Quick Check In for Service NSW */,
-				949AFFC8268C9DA800BAEF94 /* Quick Check In for Service NSWTests */,
-				949AFFD3268C9DA800BAEF94 /* Quick Check In for Service NSWUITests */,
-				9476648C26B193FC00A83190 /* Quick Check In Indexer */,
+				949AFFB1268C9DA600BAEF94 /* Favourite Check Ins for Service NSW */,
+				949AFFC8268C9DA800BAEF94 /* Favourite Check Ins for Service NSWTests */,
+				949AFFD3268C9DA800BAEF94 /* Favourite Check Ins for Service NSWUITests */,
 				949AFFB0268C9DA600BAEF94 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -132,17 +120,17 @@
 		949AFFB0268C9DA600BAEF94 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				949AFFAF268C9DA600BAEF94 /* Quick Check In for Service NSW.app */,
-				949AFFC5268C9DA800BAEF94 /* Quick Check In for Service NSWTests.xctest */,
-				949AFFD0268C9DA800BAEF94 /* Quick Check In for Service NSWUITests.xctest */,
+				949AFFAF268C9DA600BAEF94 /* Favourite Check Ins for Service NSW.app */,
+				949AFFC5268C9DA800BAEF94 /* Favourite Check Ins for Service NSWTests.xctest */,
+				949AFFD0268C9DA800BAEF94 /* Favourite Check Ins for Service NSWUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		949AFFB1268C9DA600BAEF94 /* Quick Check In for Service NSW */ = {
+		949AFFB1268C9DA600BAEF94 /* Favourite Check Ins for Service NSW */ = {
 			isa = PBXGroup;
 			children = (
-				949AFFB2268C9DA600BAEF94 /* Quick_Check_In_for_Service_NSWApp.swift */,
+				949AFFB2268C9DA600BAEF94 /* Favourite_Check_Ins_for_Service_NSWApp.swift */,
 				949AFFB4268C9DA600BAEF94 /* ContentView.swift */,
 				9476648326B18DF700A83190 /* ScannerView.swift */,
 				9476647F26B1729C00A83190 /* AlertIdentifiable.swift */,
@@ -159,7 +147,7 @@
 				9476648526B1928500A83190 /* SpotlightIndex.swift */,
 				949AFFB8268C9DA700BAEF94 /* Preview Content */,
 			);
-			path = "Quick Check In for Service NSW";
+			path = "Favourite Check Ins for Service NSW";
 			sourceTree = "<group>";
 		};
 		949AFFB8268C9DA700BAEF94 /* Preview Content */ = {
@@ -170,30 +158,30 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		949AFFC8268C9DA800BAEF94 /* Quick Check In for Service NSWTests */ = {
+		949AFFC8268C9DA800BAEF94 /* Favourite Check Ins for Service NSWTests */ = {
 			isa = PBXGroup;
 			children = (
-				949AFFC9268C9DA800BAEF94 /* Quick_Check_In_for_Service_NSWTests.swift */,
+				949AFFC9268C9DA800BAEF94 /* Favourite_Check_Ins_for_Service_NSWTests.swift */,
 				949AFFCB268C9DA800BAEF94 /* Info.plist */,
 			);
-			path = "Quick Check In for Service NSWTests";
+			path = "Favourite Check Ins for Service NSWTests";
 			sourceTree = "<group>";
 		};
-		949AFFD3268C9DA800BAEF94 /* Quick Check In for Service NSWUITests */ = {
+		949AFFD3268C9DA800BAEF94 /* Favourite Check Ins for Service NSWUITests */ = {
 			isa = PBXGroup;
 			children = (
-				949AFFD4268C9DA800BAEF94 /* Quick_Check_In_for_Service_NSWUITests.swift */,
+				949AFFD4268C9DA800BAEF94 /* Favourite_Check_Ins_for_Service_NSWUITests.swift */,
 				949AFFD6268C9DA800BAEF94 /* Info.plist */,
 			);
-			path = "Quick Check In for Service NSWUITests";
+			path = "Favourite Check Ins for Service NSWUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		949AFFAE268C9DA600BAEF94 /* Quick Check In for Service NSW */ = {
+		949AFFAE268C9DA600BAEF94 /* Favourite Check Ins for Service NSW */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 949AFFD9268C9DA800BAEF94 /* Build configuration list for PBXNativeTarget "Quick Check In for Service NSW" */;
+			buildConfigurationList = 949AFFD9268C9DA800BAEF94 /* Build configuration list for PBXNativeTarget "Favourite Check Ins for Service NSW" */;
 			buildPhases = (
 				949AFFAB268C9DA600BAEF94 /* Sources */,
 				949AFFAC268C9DA600BAEF94 /* Frameworks */,
@@ -204,14 +192,14 @@
 			);
 			dependencies = (
 			);
-			name = "Quick Check In for Service NSW";
+			name = "Favourite Check Ins for Service NSW";
 			productName = "Quick Check In for Service NSW";
-			productReference = 949AFFAF268C9DA600BAEF94 /* Quick Check In for Service NSW.app */;
+			productReference = 949AFFAF268C9DA600BAEF94 /* Favourite Check Ins for Service NSW.app */;
 			productType = "com.apple.product-type.application";
 		};
-		949AFFC4268C9DA800BAEF94 /* Quick Check In for Service NSWTests */ = {
+		949AFFC4268C9DA800BAEF94 /* Favourite Check Ins for Service NSWTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 949AFFDC268C9DA800BAEF94 /* Build configuration list for PBXNativeTarget "Quick Check In for Service NSWTests" */;
+			buildConfigurationList = 949AFFDC268C9DA800BAEF94 /* Build configuration list for PBXNativeTarget "Favourite Check Ins for Service NSWTests" */;
 			buildPhases = (
 				949AFFC1268C9DA800BAEF94 /* Sources */,
 				949AFFC2268C9DA800BAEF94 /* Frameworks */,
@@ -222,14 +210,14 @@
 			dependencies = (
 				949AFFC7268C9DA800BAEF94 /* PBXTargetDependency */,
 			);
-			name = "Quick Check In for Service NSWTests";
+			name = "Favourite Check Ins for Service NSWTests";
 			productName = "Quick Check In for Service NSWTests";
-			productReference = 949AFFC5268C9DA800BAEF94 /* Quick Check In for Service NSWTests.xctest */;
+			productReference = 949AFFC5268C9DA800BAEF94 /* Favourite Check Ins for Service NSWTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		949AFFCF268C9DA800BAEF94 /* Quick Check In for Service NSWUITests */ = {
+		949AFFCF268C9DA800BAEF94 /* Favourite Check Ins for Service NSWUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 949AFFDF268C9DA800BAEF94 /* Build configuration list for PBXNativeTarget "Quick Check In for Service NSWUITests" */;
+			buildConfigurationList = 949AFFDF268C9DA800BAEF94 /* Build configuration list for PBXNativeTarget "Favourite Check Ins for Service NSWUITests" */;
 			buildPhases = (
 				949AFFCC268C9DA800BAEF94 /* Sources */,
 				949AFFCD268C9DA800BAEF94 /* Frameworks */,
@@ -240,9 +228,9 @@
 			dependencies = (
 				949AFFD2268C9DA800BAEF94 /* PBXTargetDependency */,
 			);
-			name = "Quick Check In for Service NSWUITests";
+			name = "Favourite Check Ins for Service NSWUITests";
 			productName = "Quick Check In for Service NSWUITests";
-			productReference = 949AFFD0268C9DA800BAEF94 /* Quick Check In for Service NSWUITests.xctest */;
+			productReference = 949AFFD0268C9DA800BAEF94 /* Favourite Check Ins for Service NSWUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -267,7 +255,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 949AFFAA268C9DA600BAEF94 /* Build configuration list for PBXProject "Quick Check In for Service NSW" */;
+			buildConfigurationList = 949AFFAA268C9DA600BAEF94 /* Build configuration list for PBXProject "Favourite Check Ins for Service NSW" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -280,9 +268,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				949AFFAE268C9DA600BAEF94 /* Quick Check In for Service NSW */,
-				949AFFC4268C9DA800BAEF94 /* Quick Check In for Service NSWTests */,
-				949AFFCF268C9DA800BAEF94 /* Quick Check In for Service NSWUITests */,
+				949AFFAE268C9DA600BAEF94 /* Favourite Check Ins for Service NSW */,
+				949AFFC4268C9DA800BAEF94 /* Favourite Check Ins for Service NSWTests */,
+				949AFFCF268C9DA800BAEF94 /* Favourite Check Ins for Service NSWUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -329,7 +317,7 @@
 				949AFFE3268CAD0100BAEF94 /* QrCodeCameraDelegate.swift in Sources */,
 				9476648426B18DF700A83190 /* ScannerView.swift in Sources */,
 				9476648626B1928500A83190 /* SpotlightIndex.swift in Sources */,
-				949AFFB3268C9DA600BAEF94 /* Quick_Check_In_for_Service_NSWApp.swift in Sources */,
+				949AFFB3268C9DA600BAEF94 /* Favourite_Check_Ins_for_Service_NSWApp.swift in Sources */,
 				949AFFE9268CADDF00BAEF94 /* ScannerViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,7 +326,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				949AFFCA268C9DA800BAEF94 /* Quick_Check_In_for_Service_NSWTests.swift in Sources */,
+				949AFFCA268C9DA800BAEF94 /* Favourite_Check_Ins_for_Service_NSWTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,7 +334,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				949AFFD5268C9DA800BAEF94 /* Quick_Check_In_for_Service_NSWUITests.swift in Sources */,
+				949AFFD5268C9DA800BAEF94 /* Favourite_Check_Ins_for_Service_NSWUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,12 +343,12 @@
 /* Begin PBXTargetDependency section */
 		949AFFC7268C9DA800BAEF94 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 949AFFAE268C9DA600BAEF94 /* Quick Check In for Service NSW */;
+			target = 949AFFAE268C9DA600BAEF94 /* Favourite Check Ins for Service NSW */;
 			targetProxy = 949AFFC6268C9DA800BAEF94 /* PBXContainerItemProxy */;
 		};
 		949AFFD2268C9DA800BAEF94 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 949AFFAE268C9DA600BAEF94 /* Quick Check In for Service NSW */;
+			target = 949AFFAE268C9DA600BAEF94 /* Favourite Check Ins for Service NSW */;
 			targetProxy = 949AFFD1268C9DA800BAEF94 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -489,16 +477,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "Quick\\ Check\\ In\\ for\\ Service\\ NSW/Preview\\ Content";
+				DEVELOPMENT_ASSET_PATHS = "Favourite\\ Check\\ Ins\\ for\\ Service\\ NSW/Preview\\ Content";
 				DEVELOPMENT_TEAM = TVP662UBX8;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Quick Check In for Service NSW/Info.plist";
+				INFOPLIST_FILE = "Favourite Check Ins for Service NSW/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Ryan-Christensen.Quick-Check-In-for-Service-NSW";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ryan-Christensen.Favourite-Check-Ins-for-Service-NSW";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -512,16 +500,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "Quick\\ Check\\ In\\ for\\ Service\\ NSW/Preview\\ Content";
+				DEVELOPMENT_ASSET_PATHS = "Favourite\\ Check\\ Ins\\ for\\ Service\\ NSW/Preview\\ Content";
 				DEVELOPMENT_TEAM = TVP662UBX8;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Quick Check In for Service NSW/Info.plist";
+				INFOPLIST_FILE = "Favourite Check Ins for Service NSW/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Ryan-Christensen.Quick-Check-In-for-Service-NSW";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ryan-Christensen.Favourite-Check-Ins-for-Service-NSW";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -545,7 +533,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quick Check In for Service NSW.app/Quick Check In for Service NSW";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Favourite Check Ins for Service NSW.app/Favourite Check Ins for Service NSW";
 			};
 			name = Debug;
 		};
@@ -566,7 +554,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quick Check In for Service NSW.app/Quick Check In for Service NSW";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Favourite Check Ins for Service NSW.app/Favourite Check Ins for Service NSW";
 			};
 			name = Release;
 		};
@@ -611,7 +599,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		949AFFAA268C9DA600BAEF94 /* Build configuration list for PBXProject "Quick Check In for Service NSW" */ = {
+		949AFFAA268C9DA600BAEF94 /* Build configuration list for PBXProject "Favourite Check Ins for Service NSW" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				949AFFD7268C9DA800BAEF94 /* Debug */,
@@ -620,7 +608,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		949AFFD9268C9DA800BAEF94 /* Build configuration list for PBXNativeTarget "Quick Check In for Service NSW" */ = {
+		949AFFD9268C9DA800BAEF94 /* Build configuration list for PBXNativeTarget "Favourite Check Ins for Service NSW" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				949AFFDA268C9DA800BAEF94 /* Debug */,
@@ -629,7 +617,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		949AFFDC268C9DA800BAEF94 /* Build configuration list for PBXNativeTarget "Quick Check In for Service NSWTests" */ = {
+		949AFFDC268C9DA800BAEF94 /* Build configuration list for PBXNativeTarget "Favourite Check Ins for Service NSWTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				949AFFDD268C9DA800BAEF94 /* Debug */,
@@ -638,7 +626,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		949AFFDF268C9DA800BAEF94 /* Build configuration list for PBXNativeTarget "Quick Check In for Service NSWUITests" */ = {
+		949AFFDF268C9DA800BAEF94 /* Build configuration list for PBXNativeTarget "Favourite Check Ins for Service NSWUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				949AFFE0268C9DA800BAEF94 /* Debug */,

@@ -6,9 +6,9 @@
 //
 
 import XCTest
-@testable import Quick_Check_In_for_Service_NSW
+@testable import Favourite_Check_Ins_for_Service_NSW
 
-class Quick_Check_In_for_Service_NSWTests: XCTestCase {
+class Favourite_Check_Ins_for_Service_NSWTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

@@ -9,7 +9,7 @@ import SwiftUI
 import CoreSpotlight
 
 @main
-struct Quick_Check_In_for_Service_NSWApp: App {
+struct Favourite_Check_Ins_for_Service_NSWApp: App {
     let persistenceController = PersistenceController.shared
     
     var body: some Scene {

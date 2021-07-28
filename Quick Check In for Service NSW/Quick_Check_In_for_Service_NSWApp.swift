@@ -6,15 +6,16 @@
 //
 
 import SwiftUI
+import CoreSpotlight
 
 @main
 struct Quick_Check_In_for_Service_NSWApp: App {
     let persistenceController = PersistenceController.shared
-
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                .environment(\.managedObjectContext, persistenceController.container.viewContext).onContinueUserActivity(CSSearchableItemActionType, perform: handleLaunchFromSpotlight)
         }
     }
 }

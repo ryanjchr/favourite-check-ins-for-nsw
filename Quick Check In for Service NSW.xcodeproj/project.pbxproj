@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		943F7A482699CEA100268D84 /* ProcessServiceNSWURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943F7A472699CEA100268D84 /* ProcessServiceNSWURL.swift */; };
+		943F7A4A2699DE3F00268D84 /* ServiceNSWCovidBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943F7A492699DE3F00268D84 /* ServiceNSWCovidBusiness.swift */; };
+		9476648026B1729C00A83190 /* AlertIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476647F26B1729C00A83190 /* AlertIdentifiable.swift */; };
+		9476648426B18DF700A83190 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476648326B18DF700A83190 /* ScannerView.swift */; };
+		9476648626B1928500A83190 /* SpotlightIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476648526B1928500A83190 /* SpotlightIndex.swift */; };
 		949AFFB3268C9DA600BAEF94 /* Quick_Check_In_for_Service_NSWApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949AFFB2268C9DA600BAEF94 /* Quick_Check_In_for_Service_NSWApp.swift */; };
 		949AFFB5268C9DA600BAEF94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949AFFB4268C9DA600BAEF94 /* ContentView.swift */; };
 		949AFFB7268C9DA700BAEF94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 949AFFB6268C9DA700BAEF94 /* Assets.xcassets */; };
@@ -15,6 +20,10 @@
 		949AFFBF268C9DA700BAEF94 /* Quick_Check_In_for_Service_NSW.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 949AFFBD268C9DA700BAEF94 /* Quick_Check_In_for_Service_NSW.xcdatamodeld */; };
 		949AFFCA268C9DA800BAEF94 /* Quick_Check_In_for_Service_NSWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949AFFC9268C9DA800BAEF94 /* Quick_Check_In_for_Service_NSWTests.swift */; };
 		949AFFD5268C9DA800BAEF94 /* Quick_Check_In_for_Service_NSWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949AFFD4268C9DA800BAEF94 /* Quick_Check_In_for_Service_NSWUITests.swift */; };
+		949AFFE3268CAD0100BAEF94 /* QrCodeCameraDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949AFFE2268CAD0100BAEF94 /* QrCodeCameraDelegate.swift */; };
+		949AFFE5268CAD2300BAEF94 /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949AFFE4268CAD2300BAEF94 /* CameraPreview.swift */; };
+		949AFFE7268CAD5000BAEF94 /* QrCodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949AFFE6268CAD5000BAEF94 /* QrCodeScannerView.swift */; };
+		949AFFE9268CADDF00BAEF94 /* ScannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949AFFE8268CADDF00BAEF94 /* ScannerViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +43,27 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		9476649626B193FC00A83190 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		943F7A472699CEA100268D84 /* ProcessServiceNSWURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessServiceNSWURL.swift; sourceTree = "<group>"; };
+		943F7A492699DE3F00268D84 /* ServiceNSWCovidBusiness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceNSWCovidBusiness.swift; sourceTree = "<group>"; };
+		9476647F26B1729C00A83190 /* AlertIdentifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertIdentifiable.swift; sourceTree = "<group>"; };
+		9476648326B18DF700A83190 /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
+		9476648526B1928500A83190 /* SpotlightIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotlightIndex.swift; sourceTree = "<group>"; };
+		9476648D26B193FC00A83190 /* IndexRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexRequestHandler.swift; sourceTree = "<group>"; };
+		9476648F26B193FC00A83190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		949AFFAF268C9DA600BAEF94 /* Quick Check In for Service NSW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quick Check In for Service NSW.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		949AFFB2268C9DA600BAEF94 /* Quick_Check_In_for_Service_NSWApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quick_Check_In_for_Service_NSWApp.swift; sourceTree = "<group>"; };
 		949AFFB4268C9DA600BAEF94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +78,10 @@
 		949AFFD0268C9DA800BAEF94 /* Quick Check In for Service NSWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quick Check In for Service NSWUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		949AFFD4268C9DA800BAEF94 /* Quick_Check_In_for_Service_NSWUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quick_Check_In_for_Service_NSWUITests.swift; sourceTree = "<group>"; };
 		949AFFD6268C9DA800BAEF94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		949AFFE2268CAD0100BAEF94 /* QrCodeCameraDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrCodeCameraDelegate.swift; sourceTree = "<group>"; };
+		949AFFE4268CAD2300BAEF94 /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
+		949AFFE6268CAD5000BAEF94 /* QrCodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrCodeScannerView.swift; sourceTree = "<group>"; };
+		949AFFE8268CADDF00BAEF94 /* ScannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,12 +109,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9476648C26B193FC00A83190 /* Quick Check In Indexer */ = {
+			isa = PBXGroup;
+			children = (
+				9476648D26B193FC00A83190 /* IndexRequestHandler.swift */,
+				9476648F26B193FC00A83190 /* Info.plist */,
+			);
+			path = "Quick Check In Indexer";
+			sourceTree = "<group>";
+		};
 		949AFFA6268C9DA600BAEF94 = {
 			isa = PBXGroup;
 			children = (
 				949AFFB1268C9DA600BAEF94 /* Quick Check In for Service NSW */,
 				949AFFC8268C9DA800BAEF94 /* Quick Check In for Service NSWTests */,
 				949AFFD3268C9DA800BAEF94 /* Quick Check In for Service NSWUITests */,
+				9476648C26B193FC00A83190 /* Quick Check In Indexer */,
 				949AFFB0268C9DA600BAEF94 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,10 +144,19 @@
 			children = (
 				949AFFB2268C9DA600BAEF94 /* Quick_Check_In_for_Service_NSWApp.swift */,
 				949AFFB4268C9DA600BAEF94 /* ContentView.swift */,
+				9476648326B18DF700A83190 /* ScannerView.swift */,
+				9476647F26B1729C00A83190 /* AlertIdentifiable.swift */,
+				943F7A472699CEA100268D84 /* ProcessServiceNSWURL.swift */,
+				949AFFE8268CADDF00BAEF94 /* ScannerViewModel.swift */,
+				949AFFE2268CAD0100BAEF94 /* QrCodeCameraDelegate.swift */,
+				949AFFE4268CAD2300BAEF94 /* CameraPreview.swift */,
+				949AFFE6268CAD5000BAEF94 /* QrCodeScannerView.swift */,
 				949AFFB6268C9DA700BAEF94 /* Assets.xcassets */,
 				949AFFBB268C9DA700BAEF94 /* Persistence.swift */,
 				949AFFC0268C9DA700BAEF94 /* Info.plist */,
 				949AFFBD268C9DA700BAEF94 /* Quick_Check_In_for_Service_NSW.xcdatamodeld */,
+				943F7A492699DE3F00268D84 /* ServiceNSWCovidBusiness.swift */,
+				9476648526B1928500A83190 /* SpotlightIndex.swift */,
 				949AFFB8268C9DA700BAEF94 /* Preview Content */,
 			);
 			path = "Quick Check In for Service NSW";
@@ -146,6 +198,7 @@
 				949AFFAB268C9DA600BAEF94 /* Sources */,
 				949AFFAC268C9DA600BAEF94 /* Frameworks */,
 				949AFFAD268C9DA600BAEF94 /* Resources */,
+				9476649626B193FC00A83190 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
@@ -265,10 +318,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				949AFFE7268CAD5000BAEF94 /* QrCodeScannerView.swift in Sources */,
 				949AFFBF268C9DA700BAEF94 /* Quick_Check_In_for_Service_NSW.xcdatamodeld in Sources */,
 				949AFFBC268C9DA700BAEF94 /* Persistence.swift in Sources */,
+				943F7A482699CEA100268D84 /* ProcessServiceNSWURL.swift in Sources */,
 				949AFFB5268C9DA600BAEF94 /* ContentView.swift in Sources */,
+				949AFFE5268CAD2300BAEF94 /* CameraPreview.swift in Sources */,
+				9476648026B1729C00A83190 /* AlertIdentifiable.swift in Sources */,
+				943F7A4A2699DE3F00268D84 /* ServiceNSWCovidBusiness.swift in Sources */,
+				949AFFE3268CAD0100BAEF94 /* QrCodeCameraDelegate.swift in Sources */,
+				9476648426B18DF700A83190 /* ScannerView.swift in Sources */,
+				9476648626B1928500A83190 /* SpotlightIndex.swift in Sources */,
 				949AFFB3268C9DA600BAEF94 /* Quick_Check_In_for_Service_NSWApp.swift in Sources */,
+				949AFFE9268CADDF00BAEF94 /* ScannerViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,10 +485,12 @@
 		949AFFDA268C9DA800BAEF94 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Quick Check In for Service NSW/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "Quick\\ Check\\ In\\ for\\ Service\\ NSW/Preview\\ Content";
+				DEVELOPMENT_TEAM = TVP662UBX8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Quick Check In for Service NSW/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -444,10 +508,12 @@
 		949AFFDB268C9DA800BAEF94 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Quick Check In for Service NSW/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "Quick\\ Check\\ In\\ for\\ Service\\ NSW/Preview\\ Content";
+				DEVELOPMENT_TEAM = TVP662UBX8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Quick Check In for Service NSW/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
